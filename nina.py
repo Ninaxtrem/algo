@@ -42,5 +42,14 @@ else:
 
 print("exo7")
 
+a = 20
+b = 30
 
+def chiffre (a, b):
+    if a > b:
+        return a
+    else: 
+        return b 
+print(chiffre(a,b))
+    
 
