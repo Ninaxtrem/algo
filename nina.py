@@ -1,3 +1,6 @@
+from random import random, randrange
+
+
 print ("exo 1")
 x = 2
 print (x)
@@ -53,5 +56,20 @@ def chiffre (a, b):
 print(chiffre(a,b))
 
 print("exo8")
-    
 
+a = randrange (1,100,1)
+print ( a )
+
+print ( "exo9")
+
+import random
+for i in range(10) :
+    print(random.randint(1,100))
+
+print ("exo10")
+
+u = 0
+
+while u<=90:
+    u = random.randint(1,100);
+    print (u)
