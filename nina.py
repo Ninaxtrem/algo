@@ -51,5 +51,7 @@ def chiffre (a, b):
     else: 
         return b 
 print(chiffre(a,b))
+
+print("exo8")
     
 
